@@ -6,41 +6,41 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: <Code className="w-8 h-8" />,
-      title: "Frontend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "JavaScript", level: 95 },
+        { name: "Python", level: 95 },
+        { name: "JavaScript", level: 90 },
+        { name: "C#", level: 85 },
+        { name: "Java", level: 80 },
       ]
     },
     {
       icon: <Server className="w-8 h-8" />,
-      title: "Backend Development",
+      title: "Backend & Data Engineering",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "API Design", level: 90 },
+        { name: "ASP.NET Core", level: 90 },
+        { name: "Node.js/Express.js", level: 85 },
+        { name: "PostgreSQL", level: 90 },
+        { name: "Apache Kafka", level: 85 },
       ]
     },
     {
       icon: <Palette className="w-8 h-8" />,
-      title: "Design & UX",
+      title: "Frontend & Web",
       skills: [
-        { name: "UI/UX Design", level: 85 },
-        { name: "Figma", level: 80 },
-        { name: "User Research", level: 75 },
-        { name: "Prototyping", level: 80 },
+        { name: "React", level: 85 },
+        { name: "HTML5/CSS3", level: 90 },
+        { name: "TailwindCSS", level: 85 },
+        { name: "RESTful APIs", level: 95 },
       ]
     },
     {
       icon: <Smartphone className="w-8 h-8" />,
-      title: "Tools & Others",
+      title: "DevOps & Cloud",
       skills: [
+        { name: "Docker/Kubernetes", level: 80 },
+        { name: "AWS/Azure", level: 75 },
         { name: "Git/GitHub", level: 95 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
         { name: "CI/CD", level: 80 },
       ]
     }

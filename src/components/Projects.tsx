@@ -6,37 +6,37 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with modern UI, payment integration, and admin dashboard. Built with React, Node.js, and PostgreSQL.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+      title: "Real-time Reconciliation Framework",
+      description: "Built a high-performance reconciliation system using webhooks and Apache Kafka, achieving 38% performance improvement and 8.5% revenue boost for 1300+ customers at Unavo.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      technologies: ["Apache Kafka", "Webhooks", "C#", "ASP.NET Core", "PostgreSQL"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team workspaces, and advanced filtering capabilities.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Socket.io", "Tailwind CSS"],
+      title: "Chatbot for Robocalls",
+      description: "Developed an intelligent robocall answering system using LLMs including OpenAI, Hugging Face, and Llama APIs with rule-based mappings for automated call handling.",
+      image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop",
+      technologies: ["Python", "OpenAI API", "Llama API", "Pandas", "Machine Learning"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Weather Dashboard",
-      description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed analytics.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS Modules"],
+      title: "Plant Seedlings Classification",
+      description: "Created a deep learning CNN model for plant seedling classification with an interactive Flask web interface, processing large image datasets for accurate plant identification.",
+      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
+      technologies: ["Python", "TensorFlow", "Keras", "Flask", "CNN", "OpenCV"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing modern design principles and smooth animations.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      technologies: ["React", "Framer Motion", "Tailwind CSS", "Vite"],
+      title: "Database Migration System",
+      description: "Led migration from Teradata to BigData (Hadoop) at TCS, reducing database management risks by 85% and developing automation framework for 1000+ test cases.",
+      image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop",
+      technologies: ["Hadoop", "Teradata", "Big Data", "Python", "Automation Testing"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false

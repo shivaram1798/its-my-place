@@ -22,16 +22,16 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 transition-spring">
-            Hi, I'm <span className="accent-gradient bg-clip-text text-transparent">Alex</span>
+            Hi, I'm <span className="accent-gradient bg-clip-text text-transparent">Shivaram</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Full-Stack Developer & Designer creating beautiful digital experiences
+            Data Engineer & Software Developer crafting intelligent solutions
           </p>
           
           <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto">
-            I craft modern web applications with attention to detail, 
-            user experience, and clean code. Let's build something amazing together.
+            Experienced in machine learning, data engineering, and full-stack development. 
+            Passionate about optimizing systems and building scalable solutions that drive real impact.
           </p>
           
           {/* CTA Buttons */}
@@ -57,7 +57,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-16">
             <a 
-              href="https://github.com" 
+              href="https://github.com/shivaram1798" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white/70 hover:text-white transition-smooth"
@@ -65,7 +65,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/in/shivaram-kukkunoori" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white/70 hover:text-white transition-smooth"
@@ -73,7 +73,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a 
-              href="mailto:hello@example.com"
+              href="mailto:shiva.ram1798@gmail.com"
               className="text-white/70 hover:text-white transition-smooth"
             >
               <Mail size={24} />

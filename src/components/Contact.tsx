@@ -125,7 +125,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">hello@alexdeveloper.com</p>
+                    <p className="text-muted-foreground">shiva.ram1798@gmail.com</p>
                   </div>
                 </div>
                 
@@ -135,7 +135,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Phone</p>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+371 28342979</p>
                   </div>
                 </div>
                 
@@ -145,7 +145,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Location</p>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Riga, Latvia</p>
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                 <h4 className="font-semibold text-primary mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/shivaram1798" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-secondary hover:bg-accent/10 rounded-lg flex items-center justify-center text-muted-foreground hover:text-accent transition-smooth"
@@ -162,7 +162,7 @@ const Contact = () => {
                     <Github size={20} />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://linkedin.com/in/shivaram-kukkunoori" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-secondary hover:bg-accent/10 rounded-lg flex items-center justify-center text-muted-foreground hover:text-accent transition-smooth"
