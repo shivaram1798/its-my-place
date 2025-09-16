@@ -6,11 +6,20 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Plant Seedlings Classification",
+      description: "Created a deep learning CNN model for plant seedling classification with an interactive Flask web interface, processing large image datasets for accurate plant identification.",
+      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
+      technologies: ["Python", "TensorFlow", "Keras", "Flask", "CNN", "OpenCV"],
+  liveUrl: "/plant-seedling-classifier", // Updated to React route for classifier demo
+      githubUrl: "https://github.com/shivaram1798/plant-seedling-classification",
+      featured: true
+    },
+    {
       title: "Real-time Reconciliation Framework",
       description: "Built a high-performance reconciliation system using webhooks and Apache Kafka, achieving 38% performance improvement and 8.5% revenue boost for 1300+ customers at Unavo.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
       technologies: ["Apache Kafka", "Webhooks", "C#", "ASP.NET Core", "PostgreSQL"],
-      liveUrl: "#",
+  liveUrl: "/plant-seedling-classifier",
       githubUrl: "#",
       featured: true
     },
@@ -22,15 +31,6 @@ const Projects = () => {
       liveUrl: "#",
       githubUrl: "#",
       featured: true
-    },
-    {
-      title: "Plant Seedlings Classification",
-      description: "Created a deep learning CNN model for plant seedling classification with an interactive Flask web interface, processing large image datasets for accurate plant identification.",
-      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
-      technologies: ["Python", "TensorFlow", "Keras", "Flask", "CNN", "OpenCV"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false
     },
     {
       title: "Database Migration System",
