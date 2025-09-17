@@ -43,7 +43,6 @@ const Hero = () => {
             >
               Get In Touch
             </Button>
-            
             <Button 
               size="lg"
               className="bg-white/10 text-white border border-white/20 hover:bg-white/20 backdrop-blur-sm transition-smooth shadow-medium"
@@ -51,6 +50,18 @@ const Hero = () => {
             >
               View My Work
             </Button>
+            <a
+              href="/Shivaram Kukkunoori Resume.pdf"
+              download
+              className="inline-block"
+            >
+              <Button
+                size="lg"
+                className="bg-white/10 text-white border border-white/20 hover:bg-white/20 backdrop-blur-sm transition-smooth shadow-medium"
+              >
+                Download Resume
+              </Button>
+            </a>
           </div>
           
           {/* Social Links */}
