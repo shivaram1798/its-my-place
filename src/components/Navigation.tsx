@@ -43,7 +43,7 @@ const Navigation = () => {
               isScrolled ? 'text-primary' : 'text-white'
             }`}
           >
-            Shivaram
+            Home
           </button>
 
           {/* Desktop Navigation */}

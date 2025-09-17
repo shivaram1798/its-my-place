@@ -9,9 +9,10 @@ const Skills = () => {
       title: "Programming Languages",
       skills: [
         { name: "Python", level: 95 },
-        { name: "JavaScript", level: 90 },
-        { name: "C#", level: 85 },
-        { name: "Java", level: 80 },
+        { name: "Java", level: 90 },
+        { name: "C/C++", level: 90 },
+        { name: "Dart", level: 70 },
+        { name: "JavaScript", level: 60 },
       ]
     },
     {
@@ -38,7 +39,6 @@ const Skills = () => {
       icon: <Smartphone className="w-8 h-8" />,
       title: "DevOps & Cloud",
       skills: [
-        { name: "Docker/Kubernetes", level: 80 },
         { name: "AWS/Azure", level: 75 },
         { name: "Git/GitHub", level: 95 },
         { name: "CI/CD", level: 80 },
