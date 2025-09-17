@@ -10,8 +10,26 @@ const Projects = () => {
       description: "Created a deep learning CNN model for plant seedling classification with an interactive Flask web interface, processing large image datasets for accurate plant identification.",
       image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
       technologies: ["Python", "TensorFlow", "Keras", "Flask", "CNN", "OpenCV"],
-  liveUrl: "/plant-seedling-classifier", // Updated to React route for classifier demo
+      liveUrl: "/plant-seedling-classifier", // Updated to React route for classifier demo
       githubUrl: "https://github.com/shivaram1798/plant-seedling-classification",
+      featured: true
+    },
+    {
+      title: "Traffitizer Emergency Response System",
+      description: "Worked on a real-time emergency response system that detects ambulances at traffic junctions and sends signals to traffic lights to turn green. The system is practically implemented using Arduino, LEDs, and an AI model with video input. This research is published in IJMRR.",
+  image: "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?w=600&h=400&fit=crop",
+      technologies: ["Python", "AI Model", "Arduino", "OpenCV", "CNN", "Video Processing", "LEDs"],
+      githubUrl: "https://github.com/shivaram1798/Traffitizer-emergency-response-system",
+      paperUrl: "https://www.ijmrr.com/admin/uploads/PAPER_Accident%20detection%20with%20cctv%20using%20CNN.pdf",
+      featured: true
+    },
+    {
+      title: "Automated Attendance System",
+      description: "Developed an automated attendance system using machine learning and facial recognition. The system streamlines attendance marking in classrooms and offices, improving accuracy and saving time. Includes a user-friendly dashboard for monitoring and reporting, and supports real-time notifications for absentees.",
+      image: "https://images.unsplash.com/photo-1503676382389-4809596d5290?w=600&h=400&fit=crop",
+      technologies: ["Python", "OpenCV", "Machine Learning", "Facial Recognition", "Flask", "Dashboard"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/shivaram1798/Automatic-attendance-management-system",
       featured: true
     },
     {
@@ -97,29 +115,74 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-4">
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="flex items-center gap-2"
-                      asChild
-                    >
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink size={16} />
-                        Live Demo
-                      </a>
-                    </Button>
-                    
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="flex items-center gap-2"
-                      asChild
-                    >
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github size={16} />
-                        Code
-                      </a>
-                    </Button>
+                    {/* Show GitHub and Paper buttons for Traffitizer Emergency Response System */}
+                    {project.title === "Traffitizer Emergency Response System" && (
+                      <>
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="flex items-center gap-2"
+                          asChild
+                        >
+                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                            <Github size={16} />
+                            Code
+                          </a>
+                        </Button>
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="flex items-center gap-2"
+                          asChild
+                        >
+                          <a href={project.paperUrl} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink size={16} />
+                            Paper
+                          </a>
+                        </Button>
+                      </>
+                    )}
+                    {/* Show both Live Demo and GitHub buttons only for Plant Seedlings Classification */}
+                    {project.title === "Plant Seedlings Classification" && (
+                      <>
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="flex items-center gap-2"
+                          asChild
+                        >
+                          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink size={16} />
+                            Live Demo
+                          </a>
+                        </Button>
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="flex items-center gap-2"
+                          asChild
+                        >
+                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                            <Github size={16} />
+                            Code
+                          </a>
+                        </Button>
+                      </>
+                    )}
+                    {/* Show only GitHub button for other projects except the excluded ones */}
+                    {project.title !== "Plant Seedlings Classification" && project.title !== "Real-time Reconciliation Framework" && project.title !== "Chatbot for Robocalls" && project.title !== "Database Migration System" && (
+                      <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="flex items-center gap-2"
+                        asChild
+                      >
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github size={16} />
+                          Code
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </div>
               </Card>

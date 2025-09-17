@@ -22,16 +22,16 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 transition-spring">
-            Hi, I'm <span className="accent-gradient bg-clip-text text-transparent">Shivaram</span>
+            Hi, I'm <span className="accent-gradient bg-clip-text text-white">Shivaram Kukkunoori</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Data Engineer & Software Developer crafting intelligent solutions
+            Fullstack Developer crafting intelligent solutions
           </p>
           
           <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto">
-            Experienced in machine learning, data engineering, and full-stack development. 
-            Passionate about optimizing systems and building scalable solutions that drive real impact.
+            I am a software engineer with a passion . I've completed my masters degree at Riga Technical University, where I learned about different aspects of computer science.
+    I have experience where I applied my coding skills to solve many complex problems.
           </p>
           
           {/* CTA Buttons */}
@@ -45,9 +45,8 @@ const Hero = () => {
             </Button>
             
             <Button 
-              variant="outline" 
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm transition-smooth"
+              className="bg-white/10 text-white border border-white/20 hover:bg-white/20 backdrop-blur-sm transition-smooth shadow-medium"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View My Work

@@ -16,10 +16,10 @@ const About = () => {
             </h3>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              With over 4 years of experience in software development and data engineering, 
+              With over 4 years of work experience in the field of information technology and couple of projects in freelancing
               I specialize in building scalable systems, optimizing performance, and implementing 
-              machine learning solutions. Currently pursuing my Master's in Computer Systems at 
-              Riga Technical University, focusing on ML and Swarm Intelligence.
+              machine learning, artifical intelligence and Gen AI solutions. Recently completed my Master's in Computer Systems at 
+              Riga Technical University, focusing on different aspects of computer sciences and engineering.
             </p>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -31,13 +31,19 @@ const About = () => {
             
             <div className="flex flex-wrap gap-3">
               <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">
-                Data Engineering
+                Artificial Intelligence
               </span>
               <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">
                 Machine Learning
               </span>
               <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">
-                System Optimization
+                Gen AI
+              </span>
+              <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">
+                Cloud technologies
+              </span>
+              <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium">
+                CI/CD
               </span>
             </div>
             </div>
