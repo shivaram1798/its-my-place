@@ -11,8 +11,13 @@ const About = () => {
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
+              <img
+                src="/my image.png"
+                alt="Shivaram Kukkunoori"
+                className="w-64 h-64 object-cover rounded-full mx-auto mb-8 shadow-soft"
+              />
             <h3 className="text-2xl font-semibold mb-6 text-primary">
-              Data Engineer & Software Developer
+              Fullstack ML/AI Developer and GEN AI engineer
             </h3>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
