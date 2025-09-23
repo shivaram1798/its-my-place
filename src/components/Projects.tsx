@@ -10,7 +10,7 @@ const Projects = () => {
       description: "Created a deep learning CNN model for plant seedling classification with an interactive Flask web interface, processing large image datasets for accurate plant identification.",
       image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop",
       technologies: ["Python", "TensorFlow", "Keras", "Flask", "CNN", "OpenCV"],
-      liveUrl: "/plant-seedling-classifier", // Updated to React route for classifier demo
+      liveUrl: "http://16.170.168.101/", // Updated to React route for classifier demo
       githubUrl: "https://github.com/shivaram1798/plant-seedling-classification",
       featured: true
     },
